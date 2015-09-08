@@ -1,0 +1,11 @@
+{
+  "name": "clearbooks/labs-schema",
+  "description": "DB schema for Labs",
+  "license": "GPL v2",
+  "authors": [
+    {
+      "name": "Clear Books Engineering Team",
+      "email": "developers@clearbooks.co.uk"
+    }
+  ]
+}
