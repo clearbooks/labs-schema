@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS `segment_policy` (
   `segment_id` varchar(128) COLLATE utf8mb4_unicode_ci NOT NULL,
   `toggle_id` int(11) NOT NULL,
-  `active` tinyint(1) NOT NULL
+  `active` tinyint(1) NOT NULL DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 ALTER TABLE `segment_policy`
